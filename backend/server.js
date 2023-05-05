@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const Routes = require ('./Router')
 
 mongoose.set('strictQuery', false);
-mongoose.connect('mongodb+srv://mariamelnikova88:Yogalover123@clustermealplanner.rgpji2c.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://...');
 
 app.use(express.urlencoded({extended:true}));
 app.use (express.json());
